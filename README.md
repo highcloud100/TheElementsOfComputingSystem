@@ -13,21 +13,21 @@
 
 ### 2022/07/27 
 
-- [ ] And
-- [ ] Xor
-- [ ] Or8Way
-- [ ] Or16
-- [ ] Or
-- [ ] Not16
-- [ ] Not
-- [ ] Mux8Way16
-- [ ] Mux4Way16
-- [ ] Mux16
-- [ ] Mux
-- [ ] DMux8Way
-- [ ] Dmux4Way
-- [ ] Dmux
-- [ ] And16
+- [x] And
+- [x] Xor
+- [x] Or8Way
+- [x] Or16
+- [x] Or
+- [x] Not16
+- [x] Not
+- [x] Mux8Way16
+- [x] Mux4Way16
+- [x] Mux16
+- [x] Mux
+- [x] DMux8Way
+- [x] Dmux4Way
+- [x] Dmux
+- [x] And16
 
 
 ## 2장 불 연산
@@ -38,11 +38,11 @@
 
 ### 2022/07/27
 
-- [ ] ALU
-- [ ] Add16
-- [ ] FullAdder
-- [ ] HalfAdder
-- [ ] Inc16
+- [x] ALU
+- [x] Add16
+- [x] FullAdder
+- [x] HalfAdder
+- [x] Inc16
 
 ## 3장 순차 논리
 ---
@@ -53,11 +53,11 @@
 ### 2022/07/28
 
 - A
-	- [ ] Register
-	- [ ] Ram8
-	- [ ] Ram64
-	- [ ] Pc
-	- [ ] Bit
+	- [x] Register
+	- [x] Ram8
+	- [x] Ram64
+	- [x] Pc
+	- [x] Bit
 - B
 	- [ ] RAM4k
 	- [ ] RAM16k
@@ -71,8 +71,8 @@
 
 ### 2022/07/29 
 
-- [ ] fill
-- [ ] mult
+- [x] fill
+- [x] mult
 
 ## 5장 컴퓨터 아키텍처
 ## 6장 어셈블러
