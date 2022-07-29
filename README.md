@@ -74,6 +74,10 @@
 - [x] fill
 - [x] mult
 
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/181740447-a0ad4e62-fa33-4a8d-b771-a192a7a01466.png">
+<img src="https://user-images.githubusercontent.com/80192345/181741488-d57421f2-9d16-4b2c-a86d-85f4a9249059.gif">
+
+
 ## 5장 컴퓨터 아키텍처
 ## 6장 어셈블러
 ## 7장 가상 머신 I: 스택 산술
