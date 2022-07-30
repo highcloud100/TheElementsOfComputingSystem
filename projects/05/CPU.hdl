@@ -39,5 +39,70 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Put your code here:
+    Or16(a=instruction,b=false, out[15]=AC, out[12]=a, out[11]=ZX,out[10]=NX,out[9]=ZY,out[8]=NY,out[7]=F,out[6]=NO, out[5]=dA,out[4]=dD,
+		out[3]=dM, out[2]=j1, out[1]=j2, out[0]=j3, out=addr);
+
+    // Amux 
+ 	   //  AC==1 -> 위 
+    
+    Mux16(a=addr, b=ALUout, sel=AC, out=toA);
+    
+    // A reg 
+   	 // dA가 1이거나 AC가 0이면 load
+
+    Not(in=AC, out=NAC);
+    Or(a=dA, b=NAC, out=dANAC);
+    ARegister(in=toA, load=dANAC, out=AReg);
+
+
+    // A or M mux 
+   	 // a==1 이면 M
+    Mux16(a=AReg, b=inM, sel=a, out=AorM);
+
+    // D reg 
+	// dD==1 이면 load && AC
+    And(a=AC, b=dD, out=dload);
+    DRegister(in=ALUout, load=dload,out=DReg);
+    
+    // ALU
+	// dD와 AorM 입력 | comp로 계산 
+
+    ALU(x=DReg, y=AorM, zx=ZX, nx=NX, zy=ZY, ny=NY, f=F, no=NO, out=ALUout, zr=ZR, ng=NG);
+
+
+    // PC
+	// 조합표 계산
+        
+    Not(in=ZR, out=nZR);
+    Not(in=NG, out=nNG);
+    
+    And(a=j3, b=nZR, out=c1);
+    And(a=j2, b=ZR, out=c2);
+    Or(a=c1, b=c2, out=c3);
+    And(a=nNG, b=c3, out=c4);
+
+    Or(a=NG, b=j3, out=c5);
+    And(a=nZR, b=c5, out=c6);
+    
+   And(a=ZR, b=NG, out=c7);
+   Or(a=c7, b=j3, out=c8);
+   And(a=c8, b=j2,  out=c9);
+   
+   Or(a=c6,b=c9,out=c10);
+   And(a=j1, b=c10, out=c11);
+
+   Or(a=c4, b=c11, out=lload);    
+   And(a=lload, b=AC, out=load);
+   PC(in=AReg, load=load , inc=true, reset=reset, out[0..14]=pc);
+ 
+   // addressM 출력
+   Or16(a=AReg, b=false, out[0..14]=addressM);
+
+   // outM 출력
+   Or16(a=ALUout, b=false, out=outM);
+
+   // writeM 출력
+   
+   And(a=dM, b=AC, out=writeM);
+
 }
