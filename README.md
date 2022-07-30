@@ -93,6 +93,7 @@
 - [x] ram
 - [x] Computer
 
+<img width="300" src="https://user-images.githubusercontent.com/80192345/181920212-545108de-8733-4067-89b1-2f3c8a033e9b.png">
 <img width="600" src="https://user-images.githubusercontent.com/80192345/181882167-938118ee-4a02-43c4-a3e9-9b89fe9b4962.gif">
 <img width="600" src="https://user-images.githubusercontent.com/80192345/181881920-81f7e939-966e-4418-a8c2-fcaebd78d7a5.png">
 
