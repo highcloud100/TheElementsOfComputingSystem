@@ -75,10 +75,29 @@
 - [x] mult
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/181740447-a0ad4e62-fa33-4a8d-b771-a192a7a01466.png">
-<img src="https://user-images.githubusercontent.com/80192345/181741488-d57421f2-9d16-4b2c-a86d-85f4a9249059.gif">
+<img width="600" src="https://user-images.githubusercontent.com/80192345/181741488-d57421f2-9d16-4b2c-a86d-85f4a9249059.gif">
 
 
 ## 5장 컴퓨터 아키텍처
+---
+
+> _형태는 언제나 기능을 따른다._
+> > Louis Sullivan, 1856~1924
+
+> _형태는 기능이다._
+> > Ludwig Mies van der Rohe, 1886~1969
+
+### 2022/07/30
+
+- [x] cpu
+- [x] ram
+- [x] Computer
+
+<img width="600" src="https://user-images.githubusercontent.com/80192345/181882167-938118ee-4a02-43c4-a3e9-9b89fe9b4962.gif">
+<img width="600" src="https://user-images.githubusercontent.com/80192345/181881920-81f7e939-966e-4418-a8c2-fcaebd78d7a5.png">
+
+
+
 ## 6장 어셈블러
 ## 7장 가상 머신 I: 스택 산술
 ## 8장 가상 머신 II: 프로그램 제어
