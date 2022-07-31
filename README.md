@@ -97,9 +97,30 @@
 <img width="600" src="https://user-images.githubusercontent.com/80192345/181882167-938118ee-4a02-43c4-a3e9-9b89fe9b4962.gif">
 <img width="600" src="https://user-images.githubusercontent.com/80192345/181881920-81f7e939-966e-4418-a8c2-fcaebd78d7a5.png">
 
-
-
 ## 6장 어셈블러
+---
+
+> _이름이란 뭘까? 장미꽃이 다른 이름으로 불리어도 달콤한 향기는 그대로일 것을._
+> > Shakespeare 
+
+### 2022/07/31
+
+- [x] Assembler
+
+[구현 저장소](https://github.com/highcloud100/Assembler_for_Hack)
+
+- 거진 2달만에 c++을 만져본 것 같다... 파일 입출력과 문자열 처리를 복습해봤다.
+   - 책의 명세서를 대충보고 만들다 혼자 삽질했다. 변수는 산술 연산에 직접 쓰이지 않는다.
+   - Code 클래스를 분리하지 않고 그냥 paser 클래스에 박아버렸다... 후에 고쳐야겠다.
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/182022259-5546536f-bba4-48b3-8342-70c33abfc398.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/182023579-bf221378-f5c6-4906-a6f4-4637a12f089d.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/182023585-e314ccb7-afe8-4962-ad7e-216c13d06945.png">
+
+
+
+
+
 ## 7장 가상 머신 I: 스택 산술
 ## 8장 가상 머신 II: 프로그램 제어
 ## 9장 고수준 언어
