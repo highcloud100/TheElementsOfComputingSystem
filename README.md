@@ -118,11 +118,29 @@
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/182023585-e314ccb7-afe8-4962-ad7e-216c13d06945.png">
 
 
+## 7장 가상 머신 I: 스택 산술 
+---
+
+> _프로그래머는 홀로 우주를 창조하는 사람이다._
+> _거의 무한대로 복잡한 우주가 컴퓨터 프로그램의 형태로 창조될 수 있다._
+> > <Computer power and Human Reason>(1974, Joseph Weizenbaum)
+
+### 2022/08/04
+
+- [x] VM1
+
+[구현 저장소](https://github.com/highcloud100/VM1_for_Jack)
+
+- 코드를 너무 무식하게 짰다.
+  - 중복 제거를 하면 좋겠다.
+- 내용이 어려워졌다.
+	- 사실 설명 이해가 쉽지 않았다.
+	- 직접 input, output을 보며 이해하면 빠를 것 같다.
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/80192345/182873050-7bd1030e-087d-4bc3-8adf-2dccba668569.png">
 
 
-
-## 7장 가상 머신 I: 스택 산술  -- 급한 일정이 생겨 미뤄둔다...
-## 8장 가상 머신 II: 프로그램 제어
+## 8장 가상 머신 II: 프로그램 제어  -- 급한 일정이 생겨 미뤄둔다... 아마 겨울 방학 쯤?
 ## 9장 고수준 언어
 ## 10장 컴파일러 I: 구문 분석
 ## 11장 컴파일러 II: 코드 생성
